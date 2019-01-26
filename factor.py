@@ -1,5 +1,7 @@
 u=int(input())
 y=u
+li=[]
 for i in range(1,u+1):
   if(y%i==0):
-    print(i)
+    li.append(i)
+print(*li)
