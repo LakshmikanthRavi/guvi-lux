@@ -1,5 +1,5 @@
 v=int(input())
-li=["one","two","three","four","five","six","seven","eight","nine","ten"]
+li=["One","Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten"]
 for i,j in enumerate(li):
   if (i+1==v):
     print(j)
