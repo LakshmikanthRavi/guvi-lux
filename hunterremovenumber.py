@@ -4,7 +4,11 @@ z=0
 for i in c:
   if i==b:
     z=z+1
-for i in range (z):  
-  c.remove(b)
-print(*c)
+if(z==a):
+  print("empty")
+else:
+  for i in range (z):  
+    c.remove(b)
+  print(*c)
+
     
