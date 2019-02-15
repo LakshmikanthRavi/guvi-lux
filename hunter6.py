@@ -7,3 +7,6 @@ for i in range(0,len(li)):
         print(a)
         break
     li.append(a)
+else:
+  print("unique")
+        
