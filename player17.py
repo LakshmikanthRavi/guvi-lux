@@ -3,7 +3,7 @@ li=[]
 l=[]
 y=[]
 k=v*v
-for i in range(0,k):
+for i in range(0,k+1):
   n=u*i
   li.append(n)
   m=v*i
