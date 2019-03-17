@@ -7,5 +7,5 @@ for i in v:
   elif i==i.lower():
     h=i.upper()
     li.append(h)
-l="".join(li)
-print(l)
+p="".join(li)
+print(p)
