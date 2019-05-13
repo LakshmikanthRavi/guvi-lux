@@ -1,5 +1,4 @@
-a=input()
-b=input()
+a,b=map(str,input().split())
 li=[]
 l=[]
 for i in a:
