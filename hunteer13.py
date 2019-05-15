@@ -12,6 +12,6 @@ for i in range(0,c):
 for i in range(0,c):
   li.append(l[i])
 if le==li:
-    print("yes")
+    print("YES")
 else:
-    print("no")
+    print("NO")
