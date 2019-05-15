@@ -1,5 +1,4 @@
-c=input()
-v=input()
+c,v=map(str,input().split())
 if c==v:
   print("yes")
 else:
