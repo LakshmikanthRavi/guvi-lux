@@ -1,4 +1,6 @@
 c=input()
 l=c.split()
 x=" ".join(l)
-print(x)
+list(x)
+p="".join(x)
+print(p)
