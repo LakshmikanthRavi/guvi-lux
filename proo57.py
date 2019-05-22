@@ -3,6 +3,7 @@ p=list(h)
 li=[]
 o=list(k)
 l=[]
+c=[]
 for i in range(0,len(h)-1):
     li.append(p[i:i+2])
 for j in range(0,len(k)-1):
