@@ -25,6 +25,4 @@ v=max(z)
 for i in o:
     if len(i)==v:
         x.append(i)
-c=len(x)-1
-print(x[c])
-        
+print(max(x))
