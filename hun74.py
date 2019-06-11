@@ -1,4 +1,4 @@
-f=input()
+s=input()
 g=input()
 l=[]
 li=[]
@@ -6,9 +6,9 @@ p=[]
 o=[]
 z=[]
 q=[]
-for i in range(0,len(f)):
-    for j in range(0,len(f)+1):
-        l.append(f[i:j])
+for i in range(0,len(s)):
+    for j in range(0,len(s)+1):
+        l.append(s[i:j])
 for i in range(0,len(g)):
     for j in range(0,len(g)+1):
         li.append(g[i:j])
