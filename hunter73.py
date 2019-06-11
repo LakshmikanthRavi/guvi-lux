@@ -5,6 +5,7 @@ li=[]
 p=[]
 o=[]
 z=[]
+x=[]
 for i in range(0,len(f)):
     for j in range(0,len(f)+1):
         l.append(f[i:j])
@@ -23,5 +24,7 @@ for i in o:
 v=max(z)
 for i in o:
     if len(i)==v:
-        print(i)
-    
+        x.append(i)
+c=len(x)-1
+print(x[c])
+        
