@@ -1,5 +1,6 @@
 u=int(input())
 li=[]
+l=[]
 for i in range(0,u):
     if i>1:
         for j in range(2,i):
@@ -8,7 +9,11 @@ for i in range(0,u):
         else:
             li.append(i)
 for i in li:
-    f=2+3+i
-    if f==u:
-        print(*[2,3,i])
+    for j in li:
+        for k in li:
+            f=i+j+k
+            if f==u:
+                l.append([i,j,k])
+print(*l[0])
+        
         
