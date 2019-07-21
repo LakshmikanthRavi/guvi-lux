@@ -1,4 +1,4 @@
-n=int(input())
+z1=int(input())
 l=list(map(int,input().split()))
 p=[]
 t=[]
