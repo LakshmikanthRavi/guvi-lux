@@ -1,3 +1,4 @@
+h=int(input())
 l=list(map(str,input().split()))
 li=[]
 r=l[1:]
